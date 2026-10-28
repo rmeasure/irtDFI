@@ -1,0 +1,6 @@
+URUTAN DI RSTUDIO (setelah paket terpasang)
+1. Salin folder hasil_grid yang sudah ada: copy inst/extdata/cond_01..09.rds ke folder kerja 'hasil_grid'
+   (agar 9 kondisi tidak diulang), lalu jalankan: source("grid.R")   -> menyelesaikan kondisi 10-12 (+-50 menit)
+2. source("compare_cfa.R") -> perbandingan dengan CFA ordinal (R=50, nrep=50; +-3 jam di satu inti).
+   Untuk uji cepat: ubah R <- 5; nrep <- 20.
+3. Kirim file hasil_perbandingan_cfa.rds dan isi folder hasil_grid ke Claude.

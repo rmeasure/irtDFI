@@ -1,0 +1,23 @@
+Package: irtDFI
+Title: Dynamic Fit Index Cutoffs for Polytomous Item Response Models
+Version: 0.1.0
+Authors@R:
+    person("First", "Last", role = c("aut", "cre"), email = "author@example.com")
+Description: Derives model-specific, simulation-based cutoffs for the
+    limited-information fit indices of unidimensional polytomous item
+    response models fitted with 'mirt' (Chalmers, 2012): the RMSEA, SRMSR,
+    CFI and TLI based on the C2 statistic of Cai and Monroe (2014). Data
+    are generated from the fitted model (Level 0) and from versions with
+    increasing local dependence (Levels 1 to L), refitted, and cutoffs
+    are taken from the resulting sampling distributions, following the
+    logic of dynamic fit index cutoffs (McNeish and Wolf, 2023) but for
+    item response models rather than factor analysis. The package
+    also reports how fixed rules of thumb behave for the same model.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1.0)
+Imports: mirt (>= 1.40), ggplot2 (>= 3.4.0), parallel, stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1
