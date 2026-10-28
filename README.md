@@ -7,7 +7,7 @@ RMSEA, SRMSR, CFI and TLI (C2-based) by simulating from the fitted model
 
 ```r
 # install.packages("remotes")
-remotes::install_github("USERNAME/irtDFI")
+remotes::install_github("rmeasure/irtDFI")
 library(irtDFI); library(mirt); data(sim_grm)   # computer-generated data
 m <- mirt(sim_grm[, 1:10], 1, itemtype = "graded")
 r <- dfi_irt(m, nrep = 200, L = 3, cores = 1)
