@@ -2,7 +2,7 @@ Package: irtDFI
 Title: Dynamic Fit Index Cutoffs for Polytomous Item Response Models
 Version: 0.1.0
 Authors@R:
-    person("First", "Last", role = c("aut", "cre"), email = "author@example.com")
+        person("Indriani H.", "Ismail", role = c("aut", "cre"), email = "indrianiismail15@gmail.com")
 Description: Derives model-specific, simulation-based cutoffs for the
     limited-information fit indices of unidimensional polytomous item
     response models fitted with 'mirt' (Chalmers, 2012): the RMSEA, SRMSR,
